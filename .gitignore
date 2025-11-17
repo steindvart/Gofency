@@ -1,0 +1,28 @@
+# VSCode
+.vs/
+.vscode/
+
+# Executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+
+# Tests
+*.test
+*.out
+
+# Go
+go.work
+
+# Security sensitive
+.env
+.env_docker
+
+# Other
+tmp/
+data/
+app.log
+.memorybank/

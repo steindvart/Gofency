@@ -1,0 +1,42 @@
+{
+  "welcome_message": {
+    "description": "Welcome message shown when user starts the bot",
+    "other": "Welcome to the Gofency Bot! How can I help you today?"
+  },
+  "help_message": {
+    "description": "Help information for users",
+    "other": "<This message is under development>"
+  },
+  "invalid_command": {
+    "description": "Error message for invalid commands",
+    "other": "Sorry, I didn't understand that command."
+  },
+  "language_selection": {
+    "description": "Prompt to select language",
+    "other": "Select your preferred language."
+  },
+  "language_changed": {
+    "description": "Confirmation of language change",
+    "other": "Language changed to {{.Language}}."
+  },
+  "captcha_welcome": {
+    "description": "Welcome message for new user with captcha challenge",
+    "other": "Welcome, {{.Username}}! Please complete the captcha verification within 30 seconds to join the chat."
+  },
+  "captcha_prompt": {
+    "description": "Prompt to enter the captcha answer",
+    "other": "Enter the numbers from the image above:"
+  },
+  "captcha_success": {
+    "description": "Message when captcha is verified successfully",
+    "other": "✅ Verification successful! Welcome to the chat, {{.Username}}!"
+  },
+  "captcha_failed": {
+    "description": "Message when captcha answer is incorrect",
+    "other": "❌ Incorrect answer. You have been removed from the chat and banned for 10 minutes."
+  },
+  "captcha_timeout": {
+    "description": "Message when captcha verification times out",
+    "other": "⏱ Verification timeout. {{.Username}} have been removed from the chat and banned for 10 minutes."
+  }
+}
